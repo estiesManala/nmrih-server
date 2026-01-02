@@ -1,0 +1,19 @@
+Greetings! This server uses basic variables and official maps. Added 2 maps from the workshop and 1 enabled: nmo_southpole_v1, nms_evildeadcabin and nmo_toxtethdark.
+Variables:
+alltalk - is a shared chat for the living and the dead;
+respawn near other players - respawn near players, from 100 to 150 units of distance (if there are respawn points), there are no respawn commands;
+difficulty is "classic" - basic difficulty.
+To restart the round / change the current map / change the next map, use the "End" key on the keyboard or via "Esc" and select "Start voting".
+Added maps nmo from the workshop.
+Good luck!
+
+Приветствую! Этот сервер использует базовые переменные и официальные карты. Добавлены 2 карты из мастерской и 1 включена: nmo_southpole_v1, nms_evildeadcabin и nmo_toxtethdark.
+Переменные:
+alltalk - общий чат для живых и мёртвых;
+respawn near other players - возрождение возле игроков, от 100 до 150 единиц расстояния (если есть точки возрождения), команд для респавна нет;
+сложность "классичсекая" - базовая сложность.
+Для перезапуска раунда / смены текущей карты / смены следующей карты используйте клавишу "End" на клавиатуре или через "Esc" и выбрать "Начать голосование".
+Удачи!
+
+The server also has a group in steam: https://steamcommunity.com/groups/SAS_Server.
+Также у сервера есть группа в стиме: https://steamcommunity.com/groups/SAS_Server.

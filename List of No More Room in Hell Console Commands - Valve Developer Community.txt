@@ -1,0 +1,863 @@
+
+  List of No More Room in Hell Console Commands
+
+From Valve Developer Community
+Jump to navigation <#mw-head> Jump to search <#searchInput>
+
+This is a listing of all commands that are in No More Room in Hell
+<https://developer.valvesoftware.com/wiki/No_More_Room_in_Hell> but not
+part of a default Source SDK 2013 Multiplayer mod. For the normal
+commands that should mostly still apply see the Console Command List
+<https://developer.valvesoftware.com/wiki/Console_Command_List> article.
+
+Todo: categorize this unusual page with a subset of commands, or dump
+all the commands to make it like the other command list pages
+
+
+    Table
+
+Name 	Description
+-ammoinv 	
+-compass 	
+-dropweapon 	
+-inventory 	
+-maglite 	
+-selectfire 	
+-shove 	
+-unload 	
+-voicecmd 	
++ammoinv 	
++compass 	
++dropweapon 	
++inventory 	
++maglite 	
++selectfire 	
++shove 	
++unload 	
++voicecmd 	
+addons 	Open Add-on Manager.
+addons_cfg_startdir 	
+addons_clear_preview_cache 	Clear preview cache
+addons_dump_metadata 	Dump add-on metadata
+addons_list 	Dumps add-on list
+addons_publisher_save_startdir 	
+addons_publisher_startdir_preview 	
+addons_publisher_startdir_vpk 	
+addons_showtags 	Prints add-on tags
+ae_debug_print_worldlights 	Print amount of world lights found in PVS
+ae_ssao_anglebias 	
+ae_ssao_occlusionintensity 	
+ae_ssao_occlusionradius 	
+ai_debug_chopper_path 	
+ai_zombie_losetime 	
+ammocheck_sound_delay 	Time delay between ammo check and sound being played
+anim_player_yaw_increments 	Increments of player yaw
+anim_showmainactivity 	Show the idle, walk, run, and/or sprint activities.
+blend_pct 	
+bot_add 	Add a bot.
+bot_changeclass 	Force all bots to change to the specified class.
+bot_crouch 	Bot crouches
+bot_flipout 	When on all bots fire their guns.
+bot_forceattack2 	When firing use attack2.
+bot_forceattackon 	When firing dont tap fire hold it down.
+bot_forcefireweapon 	Force bots with the specified weapon to fire.
+bot_kick 	Kick a bot.
+bot_mimic 	Bot uses usercmd of player by index.
+bot_mimic_yaw_offset 	Offsets the bot yaw.
+bot_sendcmd 	Forces bots to send the specified command.
+bot_voicecommands 	Bots talk the good smack.
+charselect 	Show the character selector
+chat_atten_max 	Chat attenuation distance in units
+cl_barricade_board_model 	Model to use for barricade points
+cl_debug_music_manager 	Debug music manager
+cl_debug_shaders 	
+cl_detail_avoid_force 	force with which to avoid players ( in units
+percentage of the width of the detail sprite )
+cl_detail_avoid_radius 	radius around detail sprite to avoid players
+cl_detail_avoid_recover_speed 	how fast to recover position after
+avoiding players
+cl_detail_max_sway 	Amplitude of the detail prop sway
+cl_fpspanel_font 	
+cl_full_health_color_b 	
+cl_full_health_color_g 	
+cl_full_health_color_r 	
+cl_half_health_color_b 	
+cl_half_health_color_g 	
+cl_half_health_color_r 	
+cl_health_display 	Show player names
+cl_health_far_opacity 	
+cl_health_half_pct 	
+cl_health_head_offset 	
+cl_health_low_pct 	
+cl_health_max_dist 	
+cl_health_near_opacity 	
+cl_health_supply_max_dist 	Maximum draw distance of health supply hud
+cl_health_supply_offset 	Distance above origin that health draws for
+health supplys
+cl_itemglow_alpha 	
+cl_itemglow_enabled 	
+cl_keypad_tone 	Keypad input plays DTMF tone.
+cl_low_health_color_b 	
+cl_low_health_color_g 	
+cl_low_health_color_r 	
+cl_lowhealth_end 	Percent of health to stop low health effect.
+cl_lowhealth_start 	Percent of health to start low health effect.
+cl_mainmenu_promo_buttons 	Show additional promotional buttons in the
+main menu.
+cl_motd_allow_remote_url 	Allow remote URL on MOTD.
+cl_music_blitz 	Music to play while playing blitz mode
+cl_music_challenge 	Music to play while playing challenge modes
+cl_music_crossfade_time 	Time for background music to fade in / out
+cl_music_cure 	Music to play while cured
+cl_music_suicide 	Music to play while contemplating suicide
+cl_music_vaccine 	Music to play while under effects of vaccine
+cl_muzzle_dlight 	Use dynamic light for muzzle flashes instead of entity
+light
+cl_muzzle_smoke_delay 	Minimum time between muzzle smoke effects.
+cl_natwarning_dontshow 	
+cl_neutral_health_color_b 	
+cl_neutral_health_color_g 	
+cl_neutral_health_color_r 	
+cl_new_impact_effects 	
+cl_new_impact_effects_cheap 	
+cl_playerselector_model 	Display 3D models in the player selector.
+cl_progress_color_b 	
+cl_progress_color_g 	
+cl_progress_color_r 	
+cl_ragdoll_fade_time 	
+cl_ragdoll_physics_enable 	Enable/disable ragdoll physics.
+cl_ragdoll_pronecheck_distance 	
+cl_richpresence 	Enable Rich Presence.
+cl_safezone_attack_sound_cd 	Time between safe zone under attack sounds
+cl_safezone_flash_cd 	Time between flashes of an in-danger safe zone
+cl_screenshot_autotag 	
+cl_show_speed 	spam console with local player speed
+cl_steam_notification_position 	Steam overlay notification position.
+cl_stickyironsight 	Whether to use sticky ironsights or not.
+cl_vaccine_partial_blind_desaturation 	
+cl_vaccine_partial_blind_fadein 	
+cl_vaccine_partial_blind_fadeout 	
+cl_vaccine_partial_blind_intensity 	
+cl_viewbob_enabled 	Oscillation Toggle
+cl_viewbob_scale 	Magnitude of Oscillaiton
+cl_viewbob_timer 	Speed of Oscillation
+cl_viewpunch_x 	Value of x-plane viewpunch for AE_WPN_VIEWPUNCH_VAR events.
+cl_viewpunch_y 	Value of y-plane viewpunch for AE_WPN_VIEWPUNCH_VAR events.
+cl_viewpunch_z 	Value of z-plane viewpunch for AE_WPN_VIEWPUNCH_VAR events.
+cl_vmcamera_enabled 	Enable the viewmodel camera
+cl_vmcamera_scale 	Scale of the viewmodel camera movements
+cl_voicesubtitles 	Enable voice subtitles in chat.
+cl_vote_ui_active_after_voting 	
+cl_vote_ui_show_notification 	
+cl_wavenum_padding_post 	Padding of WAVE texture before label
+cl_wavenum_padding_x 	Padding of WAVE texture in x-direction
+cl_wavenum_padding_y 	Padding of WAVE texture in y-direction
+cl_workshop_download_maps 	Download maps automatically from Workshop.
+(Depends on server)
+compass_fadetime 	Time for compass to fade away after releasing hotkey.
+CreatePredictionError 	Create a prediction error
+debug_challenge_print_records 	
+debug_extract_preview 	
+dropitem 	dropitem: Drops item/ammo of the player.
+dropweapon 	dropweapon: Drops the weapon of the player.
+ds_autodelete 	Auto-delete recordings with no associated bookmark.
+ds_autorecord 	Auto-record demos on map start will be saved to the
+directory set in ds_dir.
+ds_bookmark_backtrack 	By default how many seconds should the timer go
+backwards when the bookmark key is pressed
+ds_bookmark_goto 	Go to bookmark tick.
+ds_dir 	Demos are saved into this directory located in NMRiH game
+folder. Directory will be created if it doesnt exist.
+ds_exportlog 	Export log of a demo.
+ds_fileprefix 	File name prefix.
+ds_log 	Log events such as player chat, kills and so on. Saved as
+[demoname].txt in the same folder as demo.
+ds_mark 	Set bookmark to current tick. Usage: ds_mark [name] [secs to
+backtrack]
+ds_playback_controls 	Enable demo playback controls.
+ds_playback_open_ui 	Open demo UI on playback.
+ds_playback_open_ui_version 	Demo UI version to open. 1: Normal UI. 2:
+Simple UI.
+ds_playdemo 	This command attempts to load a demo in the dir that is set
+in ds_dir first and root second.
+ds_record 	Record a demo using NMRiH Demo Support.
+ds_record_toggle 	Record a demo using NMRiH Demo Support. (Toggle
+version for bind)
+ds_sounds 	Play a sound on record/stop.
+ds_stop 	Stop a demo using NMRiH Demo Support.
+dump_objectives 	Dump all objectives to console
+dump_weapon_registry 	Dump Weapon Registry
+dump_weapon_registry 	Dump Weapon Registry
+endround 	Ends round.
+extractallplayers 	Extracts all players.
+extractplayer 	Extracts player. Usage: extractplayer [userid]
+fmod_fade_out 	Fade out a sound through FMOD
+fmod_stop 	Stop a sound through FMOD
+fov_desired 	
+freezeallnpcs 	Freeze all NPCs.
+freezeallplayers 	Freeze all players.
+glow_outline_effect_enable 	Enable entity outline glow effects.
+glow_outline_width 	Width of glow outline effect in screen space.
+hap_ui_vehicles 	
+hb_beat_baselooptime 	Time in seconds between heartbeats (baseline)
+hb_beat_basepulsetime 	Time in seconds between in and out pulses (baseline)
+hb_beat_endlooptime 	Time in seconds between heartbeats (ending point)
+hb_beat_endpulsetime 	Time in seconds between in and out pulses (ending
+point)
+hb_breath_looptime 	Time in seconds between breath start times.
+hb_heavy_threshold 	Threshold of stamina to play heavy breathing sound.
+hb_light_threshold 	Threshold of stamina to play light breathing sound
+(and heartbeat).
+hb_medium_threshold 	Threshold of stamina to play medium breathing sound.
+heal_safe_zone 	Test heal a safe zone
+hud_demotimer_icon_colors 	
+hud_demotimer_play_resolution 	
+hud_demotimer_play_showtotal 	
+hud_demotimer_record_resolution 	
+hud_showchallengetimer 	
+hud_showdemotimer 	
+inv_maxcarry 	Maximum weight a player can carry in hundredths of grams.
+inv_speedfactor_full 	Movement speed penalty when player has full
+inventory.
+inv_speedfactor_half 	Movement speed penalty when player has half full
+inventory.
+inv_speedfactor_norm 	Movement speed penalty when player has empty
+inventory.
+kill_safe_zone 	Kill a safe zone
+load_challenge 	Load challenge in Challenge mode.
+map_showspawnpoints 	Dev - test the spawn points draws for 60 seconds
+maphack_dump_vars 	Dump MapHack variables to console.
+maphack_include 	Include file by name into existing MapHack.
+maphack_load 	Load MapHack file by name.
+maphack_reload 	Reload current MapHack.
+maphack_trigger 	Trigger a MapHack event.
+me_abrasivesaw_drain_rate_active 	Abrasive Saw fuel drain rate per
+second while attacking
+me_abrasivesaw_drain_rate_idle 	Abrasive Saw fuel drain rate per second
+while idle
+me_abrasivesaw_loop_crossfade_time 	Abrasive Saw looping sound crossfade
+time
+me_chainsaw_drain_rate_active 	Chainsaw fuel drain rate per second while
+attacking
+me_chainsaw_drain_rate_idle 	Chainsaw fuel drain rate per second while idle
+me_chainsaw_loop_crossfade_time 	Chainsaw looping sound crossfade time
+mp_limitteams 	Max # of players 1 team can have over another (0 disables
+check)
+mp_showcleanedupents 	Show entities that are removed on round respawn.
+mp_suicide_time 	
+mv_speed_normal 	Movement speed while walking
+mv_speed_riflesights 	Movement speed while ironsighted with a rifle
+mv_speed_sights 	Movement speed while ironsighted
+mv_speed_sprint 	Movement speed while sprinting
+nav_no_zombie_spawn 	Toggles the zombies cannot spawn here flag used by
+the AI system.
+nmrih_creategame 	Create multiplayer game
+nmrih_dof 	
+nmrih_dof_debug_vis 	
+nmrih_dof_focallength 	
+nmrih_dof_focus_override 	
+nmrih_dof_focus_override_distance 	
+nmrih_dof_focus_speed 	
+nmrih_dof_fstop 	
+nmrih_dof_model_trace 	
+nmrih_dof_radius 	
+nmrih_grain 	
+nmrih_grain_falloff 	
+nmrih_grain_intensity 	
+nmrih_lensflare 	
+nmrih_lensflare_intensity 	
+nmrih_screenspace 	Enable / Disable Infection shaders
+nmrih_ssao 	
+nmrih_ssao_blursharpness 	
+nmrih_support_helper 	Prints troubleshooting information.
+nmrih_version_client 	NMRiH Client Version
+nmrih_version_server 	NMRiH Server Version
+nukeplayers 	Nuke players.
+ov_autofill_complete_distance 	At this distance a spawn zone should be
+filled.
+ov_autofill_start_distance 	At this distance a spawn zone should start
+filling.
+ov_big_room_size 	Rooms this size or larger regenerate dead zombies by
+default.
+ov_debug 	Debug spawn system.
+ov_despawn_timeout 	Time in which a zombie will be despawned if not seen
+by any players.
+ov_invisible_cull 	Distance at which a zombie is always invisible to a
+player regardless of visibility.
+ov_max_despawn_per_tick 	Maximum number of zombies that can be despawned
+in a single tick
+ov_max_spawn_try 	Amount of times overlord will try spawning a zombie
+before giving up
+ov_max_zombie_count 	Maximum number of zombies in a map
+ov_min_spawn_dist 	Absolute minimum distance to a player a zombie can be
+spawned.
+ov_pop_queue_on_full 	Pop the oldest spawn queue entry if queue is full
+instead of rejecting spawns
+ov_queue_overload 	Multiple of maximum zombies to allow in queue
+ov_queue_per_tick 	Number of queue entries to process per tick
+ov_runner_chance 	Chance for each zombie spawned to be a runner
+ov_runner_kid_chance 	Chance of spawned runner zombie to be a kid
+ov_spawn_per_tick 	Maximum number of zombies to spawn per tick
+ov_spread_distance 	Minimum distance between zombies
+ov_view_cone_padding 	Factor of view cone to allow as padding when doing
+visibility checks.
+ov_vis_check_freq 	How often the overlord will check zombie visibility.
+ov_visible_cull 	Distance at which a zombie is visible to a player even
+when occluded.
+ov_zombies_per_second 	Maximum number of zombies to spawn per second
+overlord_thinkrate 	Rate at which the overlord thinks.
+play_fmod_fade 	Fade in a sound through FMOD
+play_fmod_sound 	Play a sound through FMOD
+r_forcelocalplayerdraw 	
+refresh_postprocess 	Refresh post process textures
+refresh_screenspace 	Refresh Screenspace Texture
+reset_records 	Reset challenge mode record times.
+respawnallplayers 	Respawns all players.
+respawnplayer 	Respawns player. Usage: respawnplayer [userid]
+restartround 	Restart round.
+sdk_clamp_back_speed 	
+sdk_clamp_back_speed_min 	
+sdk_ShowStateTransitions 	sdk_ShowStateTransitions <ent index or -1 for
+all>. Show player state transitions.
+show_instant_triggers 	
+show_objective 	Show the current objective
+show3dnav 	Shows 3d nav brushes
+showmotd 	show motd
+showvphysicsclips 	Shows VPhysics clip brushes
+showvphysicsclips_toggle 	Toggle Shows VPhysics clip brushes
+sk_plr_dmg_grenade 	
+soundscape_update_rate 	Rate at which soundscapes will update the list
+of players in their PVS
+sv_allow_dead_votekick_alive 	Allow dead players to vote kick alive players
+sv_armor_scale_dmg 	Amount damage is scaled for all weapons hitting
+chest armor
+sv_arrow_max_passthroughs 	Maximum number of entities a single arrow can
+pass through.
+sv_arrow_passthrough_chance 	Chance for an arrow to pass through an
+entity on headshot.
+sv_arrow_speed_max 	Maximum speed of arrows (units/sec)
+sv_arrow_speed_min 	Minimum speed of arrows (units/sec)
+sv_back_speed_frac 	Fraction of movement speed when walking backwards
+sv_bandage_heal_amt 	Amount of health bandages heal on use
+sv_barricade_cooldown 	Time after board breaking before barricade point
+is available again
+sv_barricade_health 	Health of barricade boards.
+sv_barricade_opacity 	Opacity of barricade points when visible
+sv_bash_cost_per_sec 	Cost of stamina per second of bash charge
+sv_bleedout_chance_high 	Chance for bleedout at not low health
+sv_bleedout_chance_low 	Chance for bleedout at low health
+sv_bleedout_damage 	Damage taken per bleedout tick
+sv_bleedout_jump_stam_mult 	Stamina cost multiplier when bleeding out
+sv_bleedout_threshold 	Health threshold for low health bleedout chance
+sv_bleedout_tick_rate 	Seconds between bleedout damage
+sv_bloody_chance 	Chance of a weapon to be bloodied on each melee attack
+sv_blunt_charged_pushback_chance 	Chance of a blunt weapon to push back
+a zombie on a charged attack
+sv_blunt_pushback_chance 	Chance of a blunt weapon to push back a zombie
+sv_bow_cancel_time 	Time until a stretched bow is cancelled
+sv_bow_tense_period 	Time until a stretched bow becomes tense
+sv_brainstem 	Enables/Disables zombie brainstem hitbox
+sv_bullet_knockback_chance_max 	Maximum chance for a bullet to knock a
+zombie back
+sv_bullet_knockback_chance_min 	Minimum chance for a bullet to knock a
+zombie back
+sv_bullet_pen_count 	Maximum number of times a bullet can penetrate
+through a zombie
+sv_bullet_pen_dmg_factor 	Damage factor of bullet each time it penetrates
+sv_challenge 	Enable challenge mode.
+sv_challenge_name 	Current challenge. (Set to Random for random
+objective chains)
+sv_chopper_drop_height 	How high above a drop point the chopper tries to
+get before dropping its crate
+sv_chopper_drop_leave_time 	How long the chopper waits after dropping
+its crate before leaving
+sv_chopper_drop_wait_time 	How long the chopper waits before dropping
+its crate
+sv_chopper_flare_count 	Number of flares that get dropped with a supply
+crate
+sv_chopper_flare_life 	Lifetime of flares in seconds
+sv_climb_speed 	Speed when climbing
+sv_curelength 	How long pills keep the player cured
+sv_deathnotice 	Show deathnotices on player kills/deaths
+sv_debug_tension 	Debug tension
+sv_default_door_health 	Default health for breakable doors
+sv_difficulty 	Difficulty mode
+sv_drop_ammobox_pct 	Amount of ammo zombies will drop inside their
+dropped ammo boxes
+sv_duck_speed_frac 	Fraction of movement speed while ducking
+sv_etool_pick_damage_modifier 	Damage multiplier for e-tool when pick is
+active.
+sv_execmapcfg 	Autoexec [mapname].cfg on map init.
+sv_extinguisher_always_fire 	Always able to fire an extinguisher
+sv_extract_pause 	Time after getting extracted that a player is frozen.
+sv_extract_previewtime 	Time the extract cam is active.
+sv_first_aid_heal_amt 	Amount of health a first aid kit heals.
+sv_flare_gun_explode_damage 	Damage done by a flare gun explosion
+sv_flare_gun_supply_limit 	Amount of supplies that can be called by a
+flare gun per round. Set to -1 for infinite.
+sv_free_knowedge_duration 	Time after a zombie spawns that it has free
+knowledge.
+sv_friendly_fire_factor 	Damage factor of friendly fire.
+sv_grenade_blast_radius 	Blast radius of grenade
+sv_hardcore_survival 	Enables or disables survival hardcore mode
+sv_health_display 	Whether or not to allow health to be displayed
+sv_health_station_heal_per_tick 	Amount healed by health station per second
+sv_health_station_health 	Amount of health that a health station spawns
+with
+sv_health_station_opacity 	Opacity of unused health station
+sv_helmet_scale_dmg 	Amount damage is scaled for all other weapons
+hitting the helmet
+sv_helmet_scale_rifle_dmg 	Amount damage is scaled for rifles hitting
+the helmet
+sv_idle_autokick_enabled 	Enable autokicking idle players.
+sv_idle_autokick_time 	Time a player can be idle before auto kicked from
+the server.
+sv_infect_chance_modifier 	Modifier for infect chance formula
+sv_infect_survival_modifier 	
+sv_infection_chance 	Chance for zombie to infect players per hit.
+sv_infectionlength 	Length of time it takes for infection to kill a target
+sv_item_dropforce 	Force of dropped objects
+sv_item_glow 	Enable item glow
+sv_itembox_single_use 	Whether or not players can only take one item per
+box
+sv_keycode_use_dist 	
+sv_kid_dmg_onehand 	Damage kid zombie does with one handed attacks
+sv_kid_dmg_twohand 	Damage kid zombie does with two handed attacks
+sv_kid_health_fraction 	Percent of normal zombie maximum health that
+runners have.
+sv_killpenalty 	Players lose score if they kill their healthy team
+mates. Set to 0 for PVP scoring.
+sv_maglite_melee_factor 	Factor of melee damage that Maglite does
+sv_maphack 	Enable MapHack. MapHacks are text files used for adding or
+modifying entities in the map.
+sv_maphack_allow_servercommand 	Allow $console function to execute
+server commands.
+sv_maphack_directory 	The game will search this directory for
+[mapname].txt files.
+sv_maphack_filename 	If not empty load this file for MapHack.
+sv_max_charge_length 	Maximum time attacks can be charged
+sv_max_runner_chance 	Maximum chance of a runner zombie spawning
+sv_max_separation_force 	Player avoidance force tries to steer away
+clients from players and objects that might interpenetrate
+sv_max_stamina 	Maximum stamina
+sv_max_unragdoll_dist 	Maximum distance players can be for a zombie to
+unragdoll
+sv_melee_damage_base 	Melee weapon base damage
+sv_melee_damage_head 	Melee weapon head damage
+sv_melee_dmg_per_sec 	Multiple of base melee damage to do per second of
+charge
+sv_melee_force_scale 	How much to scale force of melee hits by
+sv_melee_require_stamina 	Require enough stamina for melee swing
+sv_molotov_burn_damage 	Molotov burn damage
+sv_molotov_burn_freq 	Molotov burn (damage) frequency in seconds
+sv_molotov_damage_duration 	Time in seconds that molotov damage radius
+lasts after explosion
+sv_molotov_damage_radius 	Radius of damage for molotov explosion
+sv_molotov_explode_damage 	Damage done by molotov on explosion
+sv_music_ap_change_delay_time 	How long until pursuit / attack music
+state can change
+sv_music_change_delay_time 	How long until music state can change
+sv_music_pursuit_zombie_count 	Number of zombies that must be around the
+player to trigger the Pursuit music state
+sv_music_tension_1_zombie_count 	Number of zombies that must be around
+the player to trigger the Tension 1 music state
+sv_music_tension_2_zombie_count 	Number of zombies that must be around
+the player to trigger the Tension 2 music state
+sv_neutral_player_name 	Display player name tags in neutral color
+sv_nextlevel_on_round_win 	On round win condition change level to next
+map instead of resetting.
+sv_ng_zombie_chance 	Chance of a zombie being an NG zombie
+sv_no_stam_viewmodel_drop 	Units the viewmodel drops when not enough
+stamina for shoving / quick attacking
+sv_noinvlimit 	Disable inventory weight limit. (Also removes speed
+reduction)
+sv_objective_glow 	Enable objective boundary glow
+sv_observer_health_display 	Whether or not to allow health counters to
+be displayed for observers / spectators
+sv_pickup_masslimit 	
+sv_pickup_sizelimit 	
+sv_player_fatal_fall_speed 	Fatal fall speed
+sv_player_max_safe_fall_speed 	Maximum safe fall speed
+sv_postinfection_zombietime 	Time after death until an infected zombie
+is spawned
+sv_postround_time 	Time after round win/loss before reset.
+sv_practice_mode 	Practice mode.
+sv_practice_transtime 	Transition time for ending practice mode.
+sv_preround_freezetime 	Freeze time before each round.
+sv_progress_use_max_angle_change 	Maximum angle change allowed when
+using a trigger_progress_use before player is kicked off.
+sv_quickattack_limit 	Time for mouse to be held down and still
+considered quick attack.
+sv_random_spawner_ang_vel 	Angular velocity for randomly spawned weapons
+sv_random_spawner_vel 	Velocity for randomly spawned weapons
+sv_rare_tool_chance 	Chance for item boxes to spawn rare tools (flare
+gun, extinguisher, welder)
+sv_rare_weapon_chance 	Chance for item boxes to spawn rare weapons
+(chainsaw)
+sv_realism 	Enables/disables realism mode. Headshots will be instant
+kills and all other areas of the body will take no damage.
+sv_realism_allow_respawn 	Allow respawns in realism mode.
+sv_respawn_allowed 	Whether or not to allow respawning after death
+sv_respawn_ammo_pct 	The percentage of the clip that comes with respawn
+starting guns.
+sv_respawn_initial_token_count_objective 	Respawn token initial count in
+objective mode
+sv_respawn_initial_token_count_survival 	Respawn token initial count in
+survival mode
+sv_respawn_kills_per_token_objective 	Kills per token in objective mode
+sv_respawn_kills_per_token_survival 	Kills per token in survival mode
+sv_respawn_nearby_allowed 	Whether or not to allow spawning near other
+players
+sv_respawn_nearby_max_distance 	Maximum distance to spawn near other
+players when doing nearby spawning
+sv_respawn_nearby_min_distance 	Closest distance to spawn near other
+players when doing nearby spawning
+sv_respawn_nearby_tries_per_player 	Number of times to try finding a
+nearby spawn per other player when doing nearby spawning
+sv_respawn_time_notoken 	Time until a dead player respawns without a token
+sv_respawn_time_token 	Time until a dead player respawns with a token
+sv_respawn_token_objective 	Are respawn tokes enabled in objective mode
+sv_respawn_token_survival 	Are respawn tokes enabled in survival mode
+sv_respawn_with_weapon 	Should players spawn with a weapon
+sv_respawn_without_tokens 	Allow players to respawn without tokens
+sv_restrict_host_timescale 	Disallow changing host_timescale
+sv_resupplytime 	Length of resupply wave in seconds
+sv_roundlag_time 	Wait time between rounds.
+sv_runner_dmg_onehand 	Damage runner zombie does with one handed attacks
+sv_runner_dmg_twohand 	Damage runner zombie does with two handed attacks
+sv_runner_health_fraction 	Percent of normal zombie maximum health that
+runners have.
+sv_safezone_counter_per_player_sec 	Amount of HP drain each player
+counters per second.
+sv_safezone_drain_per_zombie_per_sec 	Amount of HP safe zones lose per
+second per zombie occupying.
+sv_safezone_empty_drain_per_sec 	Amount of HP safe zones lose per second
+with no players.
+sv_safezone_empty_drain_time 	Time a safe zone is empty before it starts
+draining
+sv_safezone_heal_amt 	Amount safe zone heals at once
+sv_safezone_health 	Maximum HP of safe zones.
+sv_safezone_max_drain_per_sec 	Maximum amount of HP safe zones can lose
+per second from zombie occupancy.
+sv_safezone_reactivate_health 	Amount of HP safe zones reactivate with.
+sv_server_spawn_buffer 	Time buffer of players joining that they could
+spawn
+sv_sharp_charged_pushback_chance 	Chance of a sharp weapon to push back
+a zombie on a charged attack
+sv_sharp_pushback_chance 	Chance of a sharp weapon to push back a zombie
+sv_shove_cost 	Stamina cost of shove
+sv_shove_delay 	Time delay between shoves in seconds
+sv_showimpacts 	Shows client (red) and server (blue) bullet impact point
+sv_skillshot_activate_time 	Time a player must be idle before skillshot
+mode activates
+sv_skillshot_damage_modifier 	Damage modifier while in skillshot mode
+sv_skillshot_stagger_chance 	Chance to add a stagger effect to shots
+while in skillshot mode
+sv_sks_melee_headshot_multiplier 	Max Multiplier on SKS melee damage
+sv_sks_melee_multiplier_max 	Max Multiplier on SKS melee damage
+sv_sks_melee_multiplier_min 	Min Multiplier on SKS melee damage
+sv_sks_shove_delay 	Time delay between shoves for SKS only in seconds
+sv_sniper_zoom 	FoV zoom for sniper rifles
+sv_spawn_density 	Multiplier For Zombie Spawn Zones without specific
+maximums
+sv_spawn_grace 	Spawn grace time
+sv_spawn_grace_objectivecount 	Number of objectives completed after
+which players cannot respawn.
+sv_spawn_grace_wave_percent 	Spawn grace time wave percent
+sv_spawn_regen_target 	By default dead zombies will be replaced to
+maintain this factor of total live zombies for a brush over two minutes
+time.
+sv_spawn_z_buffer 	Vertical distance buffer when spawning players
+sv_sprint_penalty 	Initial stamina penalty when sprinting.
+sv_stam_drainrate 	Amount of stamina drained per second while running
+sv_stam_empty_shove_penalty 	Delay in seconds to add to the time between
+shoves when completely out of stamina.
+sv_stam_jumpcost 	Stamina cost for a jump
+sv_stam_min_move_pct 	Fraction of movement speed when zero stamina
+sv_stam_min_sprint_pct 	Fraction of sprinting speed when zero stamina
+sv_stam_regen_crouch 	Stamina regained per second while crouched
+sv_stam_regen_idle 	Stamina regained per second while idle
+sv_stam_regen_moving 	Stamina regained per second while moving
+sv_stam_regen_sprint 	Stamina regained per second while sprinting
+sv_suicide_black_time 	Time a players screen is black after suiciding.
+sv_suicide_dsp 	DSP for players contemplating suicide
+sv_suicide_pushforce 	Suicide ragdoll push force
+sv_supply_use_time 	Time a supply station must be used before a piece is
+given.
+sv_tension_think_period 	How often the tension manager thinks
+sv_tension_zombie_attack_range 	Distance at which zombies are considered
+to be attacking the player
+sv_tension_zombie_range 	Distance at which zombies can be added to tension
+sv_tension_zombie_vis_range 	Distance at which zombies will be checked
+for visibility
+sv_throw_dmg_min_velocity 	Minimum velocity for a thrown weapon to do
+damage
+sv_throw_stagger_chance 	Chance to stagger on throw hit
+sv_tnt_blast_radius 	Blast radius of TNT
+sv_tnt_explode_shake_amplitude 	Amplitude of screen shake from TNT
+explosion
+sv_tnt_explode_shake_duration 	Duration of screen shake from TNT explosion
+sv_tnt_explode_shake_frequency 	Frequency of screen shake from TNT
+explosion
+sv_tnt_explode_shake_radius 	Radius of screen shake from TNT explosion
+sv_unlag_npcs 	Perform lag compensation on NPCs (EXPERIMENTAL)
+sv_use_max_reach 	Maximum reach of +USE after combining range and radial
+searches
+sv_use_range 	Range of initial +USE trace
+sv_use_secondary_radius 	Radius of secondary +USE search if initial
+trace fails
+sv_vaccine_partial_blind_chance 	Chance of vaccine causing partial
+blindness
+sv_vaccine_partial_blind_duration 	Length (in seconds) of partial
+blindness effects
+sv_voice_cooldown 	Voice command cooldown (seconds).
+sv_vote_allow_dead_call_vote 	Can players call votes when dead (does not
+affect nextlevel)
+sv_vote_allow_restart_game_skip 	Can players skip waiting phase by
+voting for round restart?
+sv_vote_issue_changechallenge_allowed 	Can players call votes to change
+challenge? (speedrun mode only)
+sv_vote_issue_changelevel_allowed 	Can players call votes to change level?
+sv_vote_issue_kick_allowed 	Can players call votes to kick players from
+the server?
+sv_vote_issue_nextlevel_allowed 	Can players call votes to change next
+level?
+sv_vote_issue_restart_game_allowed 	Can players call votes to restart
+the round?
+sv_vote_kick_ban_duration 	Vote kick ban duration in minutes (0 = disable)
+sv_wave_begin_grace 	Time before wave system begins
+sv_wave_cooldown 	Cooldown time between waves
+sv_wave_cycle 	Length of wave cycles for zombie spawning
+sv_wave_heal_amount 	Heal amount on new wave
+sv_wave_max 	Maximum wave number
+sv_wave_remove_inflictions 	Remove inflictions on new wave
+sv_wave_reset_tokens 	Reset tokens on new wave
+sv_wave_skip_count 	Number of zombies left at which the wave skip timer
+kicks in
+sv_wave_skip_time 	Time after which no zombies are killed that the wave
+system skips to the next wave
+sv_wave_spawn_delay 	Time at the start of each wave before the first
+zombies are spawned
+sv_wave_spawn_per_think 	Number of zombies spawned per think (when
+spawning)
+sv_wave_spawn_think_rate 	How often the wave controller thinks when
+spawning
+sv_weapon_dropforce 	Force of dropped weapons
+sv_weapon_throwforce 	Force of thrown weapons
+sv_zippo_equip_delay 	Time in seconds that player has to hold IN_MAGLITE
+before equipping zippo
+sv_zippo_extinguish_time 	Time until a zippo extinguishes
+sv_zippo_light_chance 	Chance for zippo to be lit on a strike
+sv_zippo_radius 	Radius the zippo lights up
+sv_zombie_ambush_dist 	Distance for a zombie to consider ambushing a player
+sv_zombie_base_pitch_max 	Maximum base pitch for zombie noises
+sv_zombie_base_pitch_min 	Minimum base pitch for zombie noises
+sv_zombie_bullet_dmg_scale 	Zombies take this factor of bullet damage
+sv_zombie_burn_time 	If ignited zombies burn for this long
+sv_zombie_burn_time_noise 	If ignited zombies burn for burn_time give or
+take this much
+sv_zombie_change_max 	Maximum time for zombie sound pitch to change
+sv_zombie_change_min 	Minimum time for zombie sound pitch to change
+sv_zombie_charge_reset_tol 	Distance for player to move from LKP for
+zombie to consider moved
+sv_zombie_collision_enabled 	Whether or not zombie collision is enabled.
+sv_zombie_collision_group_count 	Number of collision groups for zombies
+to use
+sv_zombie_crawler_health 	Crawler zombie maximum health
+sv_zombie_death_ragdoll_chance 	Chance that a zombie will ragdoll
+instead of dying if not killed by headshot
+sv_zombie_death_ragdoll_health_pct 	Percent of health a zombie
+ragdolling from non-headshot death the zombie will pop back up with.
+sv_zombie_death_ragdoll_length 	Number of seconds a zombie will stay
+ragdolled after dying by non headshot
+sv_zombie_decay_max 	Maximum zombie grunt sound decay time
+sv_zombie_decay_min 	Minimum zombie grunt sound decay time
+sv_zombie_dmg_onehand 	Damage zombie does with one handed attacks
+sv_zombie_dmg_twohand 	Damage zombie does with two handed attacks
+sv_zombie_door_dmg 	Damage zombies do to doors per hit.
+sv_zombie_farthest_phys_obj 	Zombies only consider swatting objects this
+close to them
+sv_zombie_fire_size 	Size of a zombie fire.
+sv_zombie_flinch_delay 	Zombies ignore damage this many seconds after
+flinching
+sv_zombie_grab_cooldown 	How often zombies will try to grab the same
+player.
+sv_zombie_grease_chance 	Chance that a zombie will switch collision
+groups after sv_zombie_grease_fails navigation failures.
+sv_zombie_grease_fails 	Number of failures before zombies have chance at
+switching collision group
+sv_zombie_hate_everyone 	Zombies go crazy and will attack anything that
+moves
+sv_zombie_health 	Zombie maximum health
+sv_zombie_heavy_dmg_threshold 	Minimum damage for zombie to consider heavy
+sv_zombie_max_physobj_mass 	Heaviest a physics object can be for a
+zombie to swat
+sv_zombie_moan_freq 	How many zombies can moan at one time
+sv_zombie_nav_debug 	Enable zombie nav debugging.
+sv_zombie_nav_radius 	Change zombie targetting radius (turbo de-conga-
+line-ation system).
+sv_zombie_physobj_movetodist 	How close to a physics object zombies try
+to get before swatting them
+sv_zombie_physobj_swatdist 	How close to a physics object zombies get
+before swatting them
+sv_zombie_player_max_swatdist 	Zombies will not swat physics objects at
+players farther away than this
+sv_zombie_reach 	Zombie attack range / reach distance
+sv_zombie_shambler_crawler_chance 	Chance for shamblers to spawn as
+crawlers
+sv_zombie_sound_decay_time 	Zombies lose interest in sounds after this long
+sv_zombie_sound_react_max 	Maximum number of zombies that can react to a
+sound at once
+sv_zombie_sound_react_time 	How often the sound reaction count is reset
+sv_zombie_spawn_ragdoll_chance 	Chance that a zombie will ragdoll
+instead of spawning
+sv_zombie_squash_mass 	Minimum mass that will squish a zombie
+sv_zombie_step_freq 	How many footstep sounds to play at once
+sv_zombie_swat_delay 	How long between zombie physics swat attacks
+sv_zombie_target_cooldown 	
+sv_zombie_torso_health 	Factor of maximum health that zombie torsos
+start with
+sv_zombie_unragdoll_think_freq 	Frequency of a zombies unragdoll think
+test_register_output_callback 	Usage: test_register_output_callback
+[entity targetname]
+test_remove_all_output_callbacks 	
+unfreezeallnpcs 	Unfreeze all NPCs.
+unfreezeallplayers 	Unfreeze all players.
+vpk_dump_files_list 	Spews all filenames from selected VPK to console.
+vpk_valid 	Check VPK for Workshop validity.
+workshop_download 	Download a Workshop map and add it to the list.
+workshop_download_collection 	Download all Workshop maps in a collection
+and add them to the list.
+workshop_publisher 	Open Workshop Publisher.
+workshop_validate 	Validate all Workshop items and redownload them if
+missing.
+zomb_ragdoll 	Toggle ragdoll on zombie
+zomb_squirt 	Squirt all the things!
+zomb_squirt_all 	Squirt ALL the things!
+
+Retrieved from "https://developer.valvesoftware.com/w/index.php?
+title=List_of_No_More_Room_in_Hell_Console_Commands&oldid=388126
+<https://developer.valvesoftware.com/w/index.php?
+title=List_of_No_More_Room_in_Hell_Console_Commands&oldid=388126>"
+Categories <https://developer.valvesoftware.com/wiki/Special:Categories>:
+
+  * No More Room in Hell <https://developer.valvesoftware.com/wiki/
+    Category:No_More_Room_in_Hell>
+  * Lists of console commands and variables <https://
+    developer.valvesoftware.com/wiki/
+    Category:Lists_of_console_commands_and_variables>
+
+Hidden category:
+
+  * TODO rev year 2024 <https://developer.valvesoftware.com/wiki/
+    Category:TODO_rev_year_2024>
+
+
+    Navigation menu
+
+
+Personal tools
+
+  * Create account <https://developer.valvesoftware.com/w/index.php?
+    title=Special:CreateAccount&returnto=List+of+No+More+Room+in+Hell+Console+Commands>
+  * Log in <https://developer.valvesoftware.com/w/index.php?
+    title=Special:UserLogin&returnto=List+of+No+More+Room+in+Hell+Console+Commands>
+
+
+Namespaces
+
+  * Page <https://developer.valvesoftware.com/wiki/
+    List_of_No_More_Room_in_Hell_Console_Commands>
+  * Discussion <https://developer.valvesoftware.com/w/index.php?
+    title=Talk:List_of_No_More_Room_in_Hell_Console_Commands&action=edit&redlink=1>
+
+English
+
+
+Views
+
+  * Read <https://developer.valvesoftware.com/wiki/
+    List_of_No_More_Room_in_Hell_Console_Commands>
+  * View source <https://developer.valvesoftware.com/w/index.php?
+    title=List_of_No_More_Room_in_Hell_Console_Commands&action=edit>
+  * View history <https://developer.valvesoftware.com/w/index.php?
+    title=List_of_No_More_Room_in_Hell_Console_Commands&action=history>
+
+More
+
+  * Purge <https://developer.valvesoftware.com/w/index.php?
+    title=List_of_No_More_Room_in_Hell_Console_Commands&action=purge>
+
+
+      Search
+
+<https://developer.valvesoftware.com/wiki/Main_Page>
+
+
+Navigation
+
+  * Main Page <https://developer.valvesoftware.com/wiki/Main_Page>
+  * Source SDK index <https://developer.valvesoftware.com/wiki/SDK_Docs>
+  * Recent changes <https://developer.valvesoftware.com/wiki/
+    Special:RecentChanges>
+  * Random page <https://developer.valvesoftware.com/wiki/
+    Special:RandomRootpage>
+
+
+      Workshop
+
+  * Half-Life SDK <https://developer.valvesoftware.com/wiki/Half-Life_SDK>
+  * Half-Life: Alyx Tools <https://developer.valvesoftware.com/wiki/
+    Half-Life:_Alyx_Workshop_Tools>
+  * Dota 2 Tools <https://developer.valvesoftware.com/wiki/
+    Dota_2_Workshop_Tools>
+  * SteamVR Tools <https://developer.valvesoftware.com/wiki/SteamVR/
+    Environments>
+  * Counter-Strike 2 Tools <https://developer.valvesoftware.com/wiki/
+    Counter-Strike_2_Workshop_Tools>
+
+
+      Support
+
+  * Community portal <https://developer.valvesoftware.com/wiki/
+    Valve_Developer_Community:Community_portal>
+  * Getting help <https://developer.valvesoftware.com/wiki/Help:Contents>
+  * Source SDK FAQ <https://developer.valvesoftware.com/wiki/
+    Category:Source_SDK_FAQ>
+  * Level Design FAQ <https://developer.valvesoftware.com/wiki/
+    Category:Level_Design_FAQ>
+
+
+      Steam Community
+
+  * Source SDK Hub <http://steamcommunity.com/app/211>
+  * Source SDK Discussion <https://steamcommunity.com/app/211/discussions>
+  * Steam <http://www.steampowered.com/>
+
+
+      Tools
+
+  * What links here <https://developer.valvesoftware.com/wiki/
+    Special:WhatLinksHere/List_of_No_More_Room_in_Hell_Console_Commands>
+  * Related changes <https://developer.valvesoftware.com/wiki/
+    Special:RecentChangesLinked/
+    List_of_No_More_Room_in_Hell_Console_Commands>
+  * Special pages <https://developer.valvesoftware.com/wiki/
+    Special:SpecialPages>
+  * Printable version <javascript:print();>
+  * Permanent link <https://developer.valvesoftware.com/w/index.php?
+    title=List_of_No_More_Room_in_Hell_Console_Commands&oldid=388126>
+  * Page information <https://developer.valvesoftware.com/w/index.php?
+    title=List_of_No_More_Room_in_Hell_Console_Commands&action=info>
+
+  * This page was last edited on 27 February 2024, at 02:46.
+
+  * About Valve Developer Community <https://
+    developer.valvesoftware.com/wiki/Valve_Developer_Community:About>
+  * Terms of Use <https://developer.valvesoftware.com/wiki/
+    Valve_Developer_Community:Terms_of_use>
+  * Third Party Legal Notices <https://developer.valvesoftware.com/wiki/
+    Valve%20Developer%20Community:Third%20Party%20Legal%20Notices>
+
+  * Powered by MediaWiki <https://www.mediawiki.org/>
+
